@@ -1,23 +1,23 @@
 ---
-title: "Team XXX"
+title: "Team 4k1e_rda"
 sidebar: false 
 ---
 
 This is our project webpage.
 
-Please stay tuned to follow our project activities.
-
-This is our template.
+Please stay tuned to learn the effects of education and gender on crime tendencies.
 
 # Team Members
 
-1.  [Edin_Džeko](https://tr.wikipedia.org/wiki/Edin_D%C5%BEeko)
+1.  [Serra Özkan](https://emu-hacettepe-analytics.github.io/emu430-fall2023-serraozkan-ini/)
 
-2.  [Dušan Tadić](https://tr.wikipedia.org/wiki/Du%C5%A1an_Tadi%C4%87)
+2.  [Rabia Fışkın](https://emu-hacettepe-analytics.github.io/emu430-fall2023-DevFiskin/)
 
-3.  [Frederico Rodrigues de Paula Santos](https://tr.wikipedia.org/wiki/Fred_(1993_do%C4%9Fumlu_futbolcu))
+3.  [Nur Göv](https://emu-hacettepe-analytics.github.io/emu430-fall2023-nurgov/)
 
-4.  [Sebastian Szymański](https://tr.wikipedia.org/wiki/Sebastian_Szyma%C5%84ski)
+4.  [Selenay Sarıkaya](https://emu-hacettepe-analytics.github.io/emu430-fall2023-selenaysrky/)
+
+5.  [Anıl Solakoğlu](https://emu-hacettepe-analytics.github.io/emu430-fall2023-AnilSolakoglu/)
 
 # Project Topic
 
