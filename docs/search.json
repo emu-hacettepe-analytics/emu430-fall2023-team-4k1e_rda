@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Team 4k1e_rda",
     "section": "",
-    "text": "This is our project webpage.\nPlease stay tuned to learn the effects of education and gender on crime tendencies.\n\nTeam Members\n\nSerra Özkan\nRabia Fışkın\nNur Göv\nSelenay Sarıkaya\nAnıl Solakoğlu\n\n\n\nProject Topic\n\n\nData Set\n\n\n\n\n Back to top"
+    "text": "This is our project webpage.\nPlease stay tuned to learn the effects of education and gender on crime tendencies."
   },
   {
     "objectID": "about.html",
@@ -26,5 +26,12 @@
     "title": "Data",
     "section": "",
     "text": "Data source: xxx\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html#overview-of-structure",
+    "href": "index.html#overview-of-structure",
+    "title": "Team 4k1e_rda",
+    "section": "Overview of Structure",
+    "text": "Overview of Structure\nSome ways the data is categorized can be seen by looking into this plot:\n\nDon’t be shy to open the image in a new tab so you can zoom in on it!\nSo, as it can be seen from the plot, the types of crimes that are present in the data are given as the titles of the individual line plots. The x axis is years for each type of crime and y axis is the number of times that crime was committed, of course. The plot piece named “Total” is the total amount of times all crimes were committed.\nSome of the crimes start or end abruptly as there are types of crimes redacted or added throughout the years such as “Opposition to cheque laws” which was only judged in 2011 and 2012.\nY axis of our plot is logarithmically scaled to compensate for the difference between the total number of times all the crimes for committed (Total) and the number of times different types of crimes were committed.\n\n\n\n\n\n\nWarning\n\n\n\nHelp from ChatGPT has been used to cut back from time googling very specific data formatting problems. More context can be provided if needed."
   }
 ]

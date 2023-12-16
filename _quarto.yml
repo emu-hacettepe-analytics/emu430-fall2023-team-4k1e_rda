@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Team 4k1e_rda's Project Lab"
+  title: "4k1e_rda's Project Lab"
   navbar:
     search: true
     left:
@@ -16,7 +16,7 @@ website:
         
     tools:
       - icon: github
-        href: https://www.google.com
+        href: https://github.com/orgs/emu-hacettepe-analytics/teams/4k1e_rda
         
   page-navigation: true
   back-to-top-navigation: true

@@ -5,10 +5,10 @@ library(ggplot2)
 library(ggrepel)
 library(gghighlight)
 
-dat <- read_xls("/Users/Public/gitHub/emu430-fall2023-team-4k1e_rda/data/suc turu ve egitim durumuna gore ceza infaz kurumuna giren hukumluler.xls")
-index2020 <- read_xlsx("/Users/Public/gitHub/emu430-fall2023-team-4k1e_rda/data/indexes.xlsx", sheet = "2020-2018", col_names = FALSE)
-index2017 <- read_xlsx("/Users/Public/gitHub/emu430-fall2023-team-4k1e_rda/data/indexes.xlsx", sheet = "2017-2013", col_names = FALSE)
-index2012 <- read_xlsx("/Users/Public/gitHub/emu430-fall2023-team-4k1e_rda/data/indexes.xlsx", sheet = "2012-2011", col_names = FALSE)
+dat <- read_xls("data/suc turu ve egitim durumuna gore ceza infaz kurumuna giren hukumluler.xls")
+index2020 <- read_xlsx("data/indexes.xlsx", sheet = "2020-2018", col_names = FALSE)
+index2017 <- read_xlsx("data/indexes.xlsx", sheet = "2017-2013", col_names = FALSE)
+index2012 <- read_xlsx("data/indexes.xlsx", sheet = "2012-2011", col_names = FALSE)
 index2020 <- sapply(index2020, as.character)
 index2017 <- sapply(index2017, as.character)
 index2012 <- sapply(index2012, as.character)
@@ -104,8 +104,6 @@ numbers$gen_total <- as.numeric(numbers$gen_total)
 numbers$male <- as.numeric(numbers$male)
 numbers$female <- as.numeric(numbers$female)
 numbers[is.na(numbers)] <- 0
-
-year_nums <- c(2020,2019,2018,2017,2016,2015,2014,2013,2012,2011)
 
 plot <- ggplot(numbers, aes(years, gen_total, color = type_of_crimes)) + 
   geom_line() + 
