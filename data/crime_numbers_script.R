@@ -4,6 +4,8 @@ library(dplyr)
 library(ggplot2)
 library(ggrepel)
 library(gghighlight)
+library(tibble)
+library(stringr)
 
 dat <- read_xls("data/suc turu ve egitim durumuna gore ceza infaz kurumuna giren hukumluler.xls")
 index2020 <- read_xlsx("data/indexes.xlsx", sheet = "2020-2018", col_names = FALSE)
@@ -99,11 +101,43 @@ years <- na.omit(years)
 type_frame <- data.frame(temp2020,temp2020,temp2020,temp2017,temp2017,temp2017,temp2017,temp2017,temp2012,temp2012)
 types <- data.frame(type_of_crimes = unlist(type_frame, use.names = FALSE)) |> na.omit()
 
-numbers <- data.frame(years = years, type_of_crimes = types, na.omit(data.frame(gen_total = dat$...2[20:nrow(dat)], male = dat$...3[20:nrow(dat)], female = dat$...4[20:nrow(dat)])))
+numbers <- data.frame(years = years, type_of_crime = types, na.omit(data.frame(gen_total = dat$...2[20:nrow(dat)], male = dat$...3[20:nrow(dat)], female = dat$...4[20:nrow(dat)])))
 numbers$gen_total <- as.numeric(numbers$gen_total)
 numbers$male <- as.numeric(numbers$male)
 numbers$female <- as.numeric(numbers$female)
 numbers[is.na(numbers)] <- 0
+numbers <- pivot_longer(numbers, cols = c(male,female), names_to = "gender", values_to = "number")
+
+gendered_numbers <- data.frame(rep(NA, times = 410))
+
+for (i in 1:ncol(dat)){
+  if (is.na(dat[16,i])){
+    next
+  }
+  if (dat[16,i] == "Male" || dat[16,i] == "Female"){
+    column_name <- paste( dat[16,i],i, sep = "")
+    gendered_numbers[[column_name]] <- dat[20:429,i]
+  }
+}
+
+gendered_numbers <- gendered_numbers[,2:19]
+
+colnames(gendered_numbers) <- c("Male_t", "Female_t", "Male_illit", "Female_illit", 
+                                "Male_lit", "Female_lit", "Male_pris", "Female_pris",
+                                "Male_prie", "Female_prie", "Male_jhs", "Female_jhs",
+                                "Male_hs", "Female_hs", "Male_bsc", "Female_bsc", 
+                                "Male_unk", "Female_unk")
+
+x <- 1:18
+
+gendered_numbers[ , x] <- apply(gendered_numbers[ , x], 2,            # I CAN NOT BELIEVE I HAD TO DO THIS JUST TO CONVERT ACTUAL NUMBERS TO NUMERIC. R SUCKS SOMETIMES.
+                                function(y) as.numeric(as.character(y)))
+
+gendered_numbers <- gendered_numbers[rowSums(is.na(gendered_numbers)) != ncol(gendered_numbers),]
+gendered_numbers[is.na(gendered_numbers)] <- 0
+gendered_numbers <- data.frame(years, gendered_numbers)
+
+education_cat <- pivot_longer(gendered_numbers, cols = -years, names_to = c("male","female"),names_sep = "_", values_to = "number")
 
 plot <- ggplot(numbers, aes(years, gen_total, color = type_of_crimes)) + 
   geom_line() + 
@@ -116,4 +150,10 @@ plot <- ggplot(numbers, aes(years, gen_total, color = type_of_crimes)) +
   xlab("Years")
 plot
 
+tot_filt <- filter(numbers, numbers$type_of_crimes == "Total")
+tot_vs_gen <- ggplot(tot_filt, aes(years, number)) + 
+  geom_line(aes(color = gender)) +
+  scale_y_log10() +
+  scale_x_continuous(breaks=seq(2011, 2020, 1))
+  
 save(numbers, file = "crime_numbers.RData")
