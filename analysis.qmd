@@ -18,20 +18,20 @@ title: "Analysis"
 
 Exploratory Data Analysis (EDA) is provided below by Turkish Penal Institution Statistics for the year 2020.
 
-### Overall Trend:
+### Overall Trend
 
 -   The total number of individuals in penal institutions decreased by 8.5% compared to the same date in 2019, reaching 266,831 on December 31, 2020.
 
-### Gender Distribution:
+### Gender Distribution
 
 -   96.0% of the penal institution population consisted of males, while 4.0% were females.
 
-### Population Composition:
+### Population Composition
 
 -   Convicted individuals made up 84.3% of the population, while individuals in pretrial detention constituted 15.7%.
 -   The number of individuals in penal institutions per 100,000 people was 319 on December 31, 2020.
 
-### Age Analysis:
+### Age Analysis
 
 -   The number of individuals aged 12 and above in penal institutions was 390 per 100,000 people in 2020.
 -   The number of individuals entering penal institutions as children (aged 12-17) decreased by 23.6% to 1,283, and those committing crimes as children decreased by 21.4% to 10,234 compared to the previous year.
@@ -52,6 +52,8 @@ Exploratory Data Analysis (EDA) is provided below by Turkish Penal Institution S
 -   Criminals with a higher education background were more likely to commit assault (9.2%), while those with no formal education were more likely to commit theft (30.2%).
 
 # Analysis of Crimes
+
+![](images/grafik.JPG)
 
 ### Assault Crimes
 
