@@ -53,6 +53,74 @@ Exploratory Data Analysis (EDA) is provided below by Turkish Penal Institution S
 
 # Analysis of Crimes
 
+### Assault Crimes
+
+There is an increasing trend between 2011 and 2013. Remains approximately stable in the years between 2013-2020. In general, an increase can be observed.
+
+### Bad Treatment 
+
+A slight increase is observed between 2011-2013. Between 2013-2018, a decrease and then an increase was observed and reached the same level. Afterwards, it continued with a slight increase.
+
+### Bribery
+
+A rapid increase was observed between 2011-2013. There is a decrease in the number of crimes between 2013-2015. Until 2020, it first increased and then decreased, reaching the same crime level.
+
+### Contrary to Measures for Family Protection 
+
+Approximately the same level of offenses between 2011 and 2020.
+
+### Crimes Related with Firearms and Knives 
+
+Between 2013 and 2020, it is observed that the number of crimes first decreased and then increased, reaching the same level of crime.
+
+### Damage to Property 
+
+There was a general decrease in the number of crimes between 2013-2020.
+
+### Defamation 
+
+There is an increasing trend between 2011-2013. In the following years, an approximately constant number of offenses is observed. In general, an increase in the number of offenses is observed.
+
+### Embezzlement
+
+There is an increase in the number of crimes in 2011-2013 and a slight decrease in 2013-2016. In the following years, it can be seen that the number of offenses has remained approximately constant. In general, there is an increase in the number of crimes.
+
+### Forestry 
+
+Between 2011 and 2015, there was an increase in the number of crimes at the same rate, and then it reached the same level with a decrease. In the following years, a general increase is observed.
+
+### Forgery 
+
+There is a slight increase in the number of offenses between 2011-2020.
+
+### Homicide 
+
+An increase is observed between 2011-2014. A decrease is observed in 2019-2020. In general, there is an increase in the crime rate.
+
+### Kidnapping 
+
+There is an increase between 2011-2013. In the following years, we can talk about approximately the same number of crimes and an increase is observed in general.
+
+### Opposition to the Bankruptcy and Enforsment Law 
+
+Between 2011-2019, there is a general decrease in the number of offenses.
+
+### Opposition to Cheque Law 
+
+A rapidly decreasing number of crimes was observed between 2011 and 2012.
+
+### Opposition to the Military Criminal Law
+
+Stable in 2011-2012 and a significant decrease in 2012-2013. After 2013, an increasing trend is observed.
+
+### Other Crimes 
+
+In general, there is a slight increasing trend.
+
+### Prevention of Performance 
+
+There is a decreasing trend between 2013-2016. A slightly increasing trend is observed in the following years.
+
 ### Use and Purchase of Drugs
 
 Between 2011 and 2020, there appears to be a low rate of increase.
@@ -96,3 +164,51 @@ While robbery crimes increased between 2011-2014, they remained almost at the sa
 Drug production and trafficking increased briefly from 2011 onwards and then remained almost at the same level.
 
 Approaches focussing on rehabilitation rather than punishment and changes in criminal justice policies can affect drug trafficking.
+
+# Trend Analysis
+
+In general, when we analyze the total number of crime types over the years, we observe an increasing trend. We can say that the main reason for this is the increase in economic difficulties with the growing population and the gradual change in the social structure. In addition, the fact that data collection and record-keeping are being carried out more with advanced technology than in 2011 allows for more statistical data to be kept on these crime rates. This shows that there is a reason to consider for the increase in the number of crimes.
+
+## Reasons for the Increasing Trend
+
+### Economic Challenges
+
+Economic recession, rising unemployment rates or economic uncertainty can lead to increased crime rates. When people are struggling with financial difficulties, the risk of crime often increases.
+
+### Social Changes
+
+Urbanization, migration movements or changes in the social structure can affect crime rates. Especially in urbanized areas, crime rates often increase.
+
+### Legal and Penal System
+
+Legal reforms, changes in criminal laws or changes in penal enforcement policies can affect crime rates. Harsher penalties or alternative forms of punishment may increase or decrease crime rates.
+
+### Social Support and Rehabilitation Services
+
+Lack of effective social support, rehabilitation and reintegration services can lead to increased crime rates. It is important to reintegrate and support offenders into society.
+
+### Media and Cultural Influences
+
+How the media portrays crimes, perceptions of offenders and social norms can influence crime rates. Media exaggeration of crimes or dissemination of misleading information can lead to an increase in crime rates.
+
+## **Reasons for the Decreasing Trend**
+
+### Effective Police and Security Measures
+
+More effective police work, security measures and crime prevention programs can reduce crime rates.
+
+### Education and Awareness
+
+Awareness and education programs about the negative effects of crime in society can contribute to lower crime rates.
+
+### **Social Assistance and Support Programs**
+
+Economic and social support programs can reduce crime among disadvantaged groups and promote social cohesion.
+
+### **Legal Reforms**
+
+Legal reforms and changes in criminal laws can support offenders' reintegration and return to society.
+
+### **Social Norms and Values**
+
+The attitude of social norms and values towards crime can influence crime rates. Positive social norms and values can contribute to lower crime rates.
