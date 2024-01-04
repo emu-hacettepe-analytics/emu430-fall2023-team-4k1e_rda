@@ -120,6 +120,18 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#crime-distribution" id="toc-crime-distribution" class="nav-link" data-scroll-target="#crime-distribution">6. Crime Distribution</a></li>
   <li><a href="#educational-background" id="toc-educational-background" class="nav-link" data-scroll-target="#educational-background">7. Educational Background</a></li>
   </ul></li>
+  <li><a href="#analysis-of-crimes" id="toc-analysis-of-crimes" class="nav-link" data-scroll-target="#analysis-of-crimes">Analysis of Crimes</a>
+  <ul class="collapse">
+  <li><a href="#use-and-purchase-of-drugs" id="toc-use-and-purchase-of-drugs" class="nav-link" data-scroll-target="#use-and-purchase-of-drugs"><strong>Use and Purchase of Drugs</strong></a></li>
+  <li><a href="#traffic-crimes" id="toc-traffic-crimes" class="nav-link" data-scroll-target="#traffic-crimes"><strong>Traffic Crimes</strong></a></li>
+  <li><a href="#threat" id="toc-threat" class="nav-link" data-scroll-target="#threat"><strong>Threat</strong></a></li>
+  <li><a href="#theft" id="toc-theft" class="nav-link" data-scroll-target="#theft"><strong>Theft</strong></a></li>
+  <li><a href="#swindling" id="toc-swindling" class="nav-link" data-scroll-target="#swindling"><strong>Swindling</strong></a></li>
+  <li><a href="#smuggling" id="toc-smuggling" class="nav-link" data-scroll-target="#smuggling"><strong>Smuggling</strong></a></li>
+  <li><a href="#sexual-crimes" id="toc-sexual-crimes" class="nav-link" data-scroll-target="#sexual-crimes"><strong>Sexual Crimes</strong></a></li>
+  <li><a href="#robbery" id="toc-robbery" class="nav-link" data-scroll-target="#robbery"><strong>Robbery</strong></a></li>
+  <li><a href="#production-and-commerce-of-drugs" id="toc-production-and-commerce-of-drugs" class="nav-link" data-scroll-target="#production-and-commerce-of-drugs"><strong>Production and Commerce of Drugs</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
 </nav>
@@ -150,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="key-takeaways" class="level1">
 <h1>Key Takeaways</h1>
 <ul>
-<li><p>The project focuses on understanding the dynamics of crime rates in Turkey from 2011 to 2020. It examines the relationships between crime rates, gender and education levels of offenders to gain insights into the demographic characteristics of criminals.</p></li>
+<li><p>The project focuses on a comprehensive analysis of crime dynamics in Turkey from 2011 to 2020. Utilizing the dataset “suc turu ve egitim durumuna gore ceza infaz kurumuna giren hukumluler.xls” from TÜİK, the analysis explores the relationships between crime rates, gender, and education levels of offenders. The primary goal is to gain insights into the demographic characteristics of criminals and contribute to the development of effective crime control policies.</p></li>
 <li><p>The primary dataset is obtained from “suc turu ve egitim durumuna gore ceza infaz kurumuna giren hukumluler.xls” from TÜİK, which contains information on people who have been sent to prison. In addition, index data from 2011 to 2020 are used to categorise and analyse crime trends. The dataset is processed using R with packages such as readxl, tidyr and dplyr.</p></li>
 <li><p>The project focuses on the analysis of specific crime categories, including theft, murder and rape, to identify trends in different types of crime over the years. An important aspect of this analysis is to consider the gender and educational level of the criminals in order to identify patterns and correlations between these demographic characteristics and crime rates. The R code provided illustrates the detailed steps taken to process the data, including tasks such as cleaning, structuring, handling NAs and preparing the data for visualisation.</p></li>
 <li><p>The analysis produces some interesting results, particularly when looking at crime trends over the period 2011-2020. The plotted data reveals different patterns of crime rates in different categories, with some showing fluctuations and others showing rapid changes, possibly influenced by legal changes or social dynamics. Gender analysis adds depth to the findings, revealing which crimes are more common among certain genders and how these patterns evolve over the years. The use of logarithmic scaling on the y-axis strengthens the visualisation, allowing for the different magnitudes of crime rates and facilitating a more nuanced understanding of the data.</p></li>
@@ -206,6 +218,49 @@ ul.task-list li input[type="checkbox"] {
 <li>For theft, 45.4% had completed middle school, 17.6% primary education, and 15.6% high school.</li>
 <li>Criminals with a higher education background were more likely to commit assault (9.2%), while those with no formal education were more likely to commit theft (30.2%).</li>
 </ul>
+</section>
+</section>
+<section id="analysis-of-crimes" class="level1">
+<h1>Analysis of Crimes</h1>
+<section id="use-and-purchase-of-drugs" class="level3">
+<h3 class="anchored" data-anchor-id="use-and-purchase-of-drugs"><strong>Use and Purchase of Drugs</strong></h3>
+<p>Between 2011 and 2020, there appears to be a low rate of increase.</p>
+<p>Factors such as economic difficulties or unemployment may be the main reason for this increase. Increased social pressures, increased stress levels and life difficulties, lighter sentences may increase drug use.</p>
+</section>
+<section id="traffic-crimes" class="level3">
+<h3 class="anchored" data-anchor-id="traffic-crimes"><strong>Traffic Crimes</strong></h3>
+<p>The increase in general traffic density with urbanisation and population growth, inadequate urban planning and infrastructure deficiencies are among the reasons for the increase in traffic crimes.</p>
+</section>
+<section id="threat" class="level3">
+<h3 class="anchored" data-anchor-id="threat"><strong>Threat</strong></h3>
+<p>Changes in social communication, social media and other communication technologies, police intervention, security policies and criminal sanctions can affect threat offences.</p>
+</section>
+<section id="theft" class="level3">
+<h3 class="anchored" data-anchor-id="theft"><strong>Theft</strong></h3>
+<p>While theft crime increased between 2011-2014, it remained almost at the same level between 2014-2020. The increase in theft crimes between 2011-2014 may have led to an increase in security measures during this period. Increased police and improvements in security systems may have reduced theft crimes.</p>
+</section>
+<section id="swindling" class="level3">
+<h3 class="anchored" data-anchor-id="swindling"><strong>Swindling</strong></h3>
+<p>Between 2011 and 2020, an increase rate is observed.</p>
+<p>The reason for this increase may be the widespread use of the internet and cyber swindling crimes.</p>
+</section>
+<section id="smuggling" class="level3">
+<h3 class="anchored" data-anchor-id="smuggling"><strong>Smuggling</strong></h3>
+<p>According to the years, smuggling offences appear to be decreasing and increasing in some years.Economic gains from smuggling activities may affect crime rates.</p>
+</section>
+<section id="sexual-crimes" class="level3">
+<h3 class="anchored" data-anchor-id="sexual-crimes"><strong>Sexual Crimes</strong></h3>
+<p>While theft crime increased between 2011-2014, it remained almost at the same level between 2014-2020.</p>
+<p>The increase in awareness of sexual crimes in the society and the increase in the rate of reporting crimes by victims may increase as crimes are recorded more.</p>
+</section>
+<section id="robbery" class="level3">
+<h3 class="anchored" data-anchor-id="robbery"><strong>Robbery</strong></h3>
+<p>While robbery crimes increased between 2011-2014, they remained almost at the same level between 2014-2020.The economic situation is one of the most important reasons affecting robbery crimes. Factors such as economic insufficiency, unemployment or income inequality can lead to an increase in robbery offences.</p>
+</section>
+<section id="production-and-commerce-of-drugs" class="level3">
+<h3 class="anchored" data-anchor-id="production-and-commerce-of-drugs"><strong>Production and Commerce of Drugs</strong></h3>
+<p>Drug production and trafficking increased briefly from 2011 onwards and then remained almost at the same level.</p>
+<p>Approaches focussing on rehabilitation rather than punishment and changes in criminal justice policies can affect drug trafficking.</p>
 
 
 </section>

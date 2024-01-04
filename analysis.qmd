@@ -4,7 +4,7 @@ title: "Analysis"
 
 # Key Takeaways
 
--   The project focuses on understanding the dynamics of crime rates in Turkey from 2011 to 2020. It examines the relationships between crime rates, gender and education levels of offenders to gain insights into the demographic characteristics of criminals.
+-   The project focuses on a comprehensive analysis of crime dynamics in Turkey from 2011 to 2020. Utilizing the dataset "suc turu ve egitim durumuna gore ceza infaz kurumuna giren hukumluler.xls" from TÜİK, the analysis explores the relationships between crime rates, gender, and education levels of offenders. The primary goal is to gain insights into the demographic characteristics of criminals and contribute to the development of effective crime control policies.
 
 -   The primary dataset is obtained from "suc turu ve egitim durumuna gore ceza infaz kurumuna giren hukumluler.xls" from TÜİK, which contains information on people who have been sent to prison. In addition, index data from 2011 to 2020 are used to categorise and analyse crime trends. The dataset is processed using R with packages such as readxl, tidyr and dplyr.
 
@@ -50,3 +50,49 @@ Exploratory Data Analysis (EDA) is provided below by Turkish Penal Institution S
 -   Among those entering for assault, 29.9% had completed middle school, 26.0% high school, and 21.4% primary education.
 -   For theft, 45.4% had completed middle school, 17.6% primary education, and 15.6% high school.
 -   Criminals with a higher education background were more likely to commit assault (9.2%), while those with no formal education were more likely to commit theft (30.2%).
+
+# Analysis of Crimes
+
+### **Use and Purchase of Drugs**
+
+Between 2011 and 2020, there appears to be a low rate of increase.
+
+Factors such as economic difficulties or unemployment may be the main reason for this increase. Increased social pressures, increased stress levels and life difficulties, lighter sentences may increase drug use.
+
+### **Traffic Crimes**
+
+The increase in general traffic density with urbanisation and population growth, inadequate urban planning and infrastructure deficiencies are among the reasons for the increase in traffic crimes.
+
+### **Threat**
+
+Changes in social communication, social media and other communication technologies, police intervention, security policies and criminal sanctions can affect threat offences.
+
+### **Theft**
+
+While theft crime increased between 2011-2014, it remained almost at the same level between 2014-2020. The increase in theft crimes between 2011-2014 may have led to an increase in security measures during this period. Increased police and improvements in security systems may have reduced theft crimes.
+
+### **Swindling**
+
+Between 2011 and 2020, an increase rate is observed.
+
+The reason for this increase may be the widespread use of the internet and cyber swindling crimes.
+
+### **Smuggling**
+
+According to the years, smuggling offences appear to be decreasing and increasing in some years.Economic gains from smuggling activities may affect crime rates.
+
+### **Sexual Crimes**
+
+While theft crime increased between 2011-2014, it remained almost at the same level between 2014-2020.
+
+The increase in awareness of sexual crimes in the society and the increase in the rate of reporting crimes by victims may increase as crimes are recorded more.
+
+### **Robbery**
+
+While robbery crimes increased between 2011-2014, they remained almost at the same level between 2014-2020.The economic situation is one of the most important reasons affecting robbery crimes. Factors such as economic insufficiency, unemployment or income inequality can lead to an increase in robbery offences.
+
+### **Production and Commerce of Drugs**
+
+Drug production and trafficking increased briefly from 2011 onwards and then remained almost at the same level.
+
+Approaches focussing on rehabilitation rather than punishment and changes in criminal justice policies can affect drug trafficking.
