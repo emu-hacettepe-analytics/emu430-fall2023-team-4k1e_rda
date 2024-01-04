@@ -110,6 +110,16 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link active" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
+  <li><a href="#eda-analysis" id="toc-eda-analysis" class="nav-link" data-scroll-target="#eda-analysis">EDA Analysis</a>
+  <ul class="collapse">
+  <li><a href="#overall-trend" id="toc-overall-trend" class="nav-link" data-scroll-target="#overall-trend">1. Overall Trend:</a></li>
+  <li><a href="#gender-distribution" id="toc-gender-distribution" class="nav-link" data-scroll-target="#gender-distribution">2. Gender Distribution:</a></li>
+  <li><a href="#population-composition" id="toc-population-composition" class="nav-link" data-scroll-target="#population-composition">3. Population Composition:</a></li>
+  <li><a href="#age-analysis" id="toc-age-analysis" class="nav-link" data-scroll-target="#age-analysis">4. Age Analysis:</a></li>
+  <li><a href="#entrance-and-exit-statistics" id="toc-entrance-and-exit-statistics" class="nav-link" data-scroll-target="#entrance-and-exit-statistics">5. Entrance and Exit Statistics</a></li>
+  <li><a href="#crime-distribution" id="toc-crime-distribution" class="nav-link" data-scroll-target="#crime-distribution">6. Crime Distribution</a></li>
+  <li><a href="#educational-background" id="toc-educational-background" class="nav-link" data-scroll-target="#educational-background">7. Educational Background</a></li>
+  </ul></li>
   </ul>
 </nav>
 </nav>
@@ -146,8 +156,59 @@ ul.task-list li input[type="checkbox"] {
 <li><p>The analysis produces some interesting results, particularly when looking at crime trends over the period 2011-2020. The plotted data reveals different patterns of crime rates in different categories, with some showing fluctuations and others showing rapid changes, possibly influenced by legal changes or social dynamics. Gender analysis adds depth to the findings, revealing which crimes are more common among certain genders and how these patterns evolve over the years. The use of logarithmic scaling on the y-axis strengthens the visualisation, allowing for the different magnitudes of crime rates and facilitating a more nuanced understanding of the data.</p></li>
 <li><p>The project aims to contribute to the development of effective crime control policies by providing a detailed understanding of crime dynamics in Turkey. The resulting analyses, including crime trends, gender patterns and correlations with education levels, can inform policy makers and law enforcement agencies. The project output is saved as ‘crime_numbers.RData’ for future reference and analysis. The comprehensive analysis undertaken in this project provides valuable insights that can guide efforts to create a safer society and formulate targeted crime prevention and law enforcement strategies.</p></li>
 </ul>
+</section>
+<section id="eda-analysis" class="level1">
+<h1>EDA Analysis</h1>
+<p>Exploratory Data Analysis (EDA) is provided below by Turkish Penal Institution Statistics for the year 2020.</p>
+<section id="overall-trend" class="level3">
+<h3 class="anchored" data-anchor-id="overall-trend">1. Overall Trend:</h3>
+<ul>
+<li>The total number of individuals in penal institutions decreased by 8.5% compared to the same date in 2019, reaching 266,831 on December 31, 2020.</li>
+</ul>
+</section>
+<section id="gender-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="gender-distribution">2. Gender Distribution:</h3>
+<ul>
+<li>96.0% of the penal institution population consisted of males, while 4.0% were females.</li>
+</ul>
+</section>
+<section id="population-composition" class="level3">
+<h3 class="anchored" data-anchor-id="population-composition">3. Population Composition:</h3>
+<ul>
+<li>Convicted individuals made up 84.3% of the population, while individuals in pretrial detention constituted 15.7%.</li>
+<li>The number of individuals in penal institutions per 100,000 people was 319 on December 31, 2020.</li>
+</ul>
+</section>
+<section id="age-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="age-analysis">4. Age Analysis:</h3>
+<ul>
+<li>The number of individuals aged 12 and above in penal institutions was 390 per 100,000 people in 2020.</li>
+<li>The number of individuals entering penal institutions as children (aged 12-17) decreased by 23.6% to 1,283, and those committing crimes as children decreased by 21.4% to 10,234 compared to the previous year.</li>
+</ul>
+</section>
+<section id="entrance-and-exit-statistics" class="level3">
+<h3 class="anchored" data-anchor-id="entrance-and-exit-statistics">5. Entrance and Exit Statistics</h3>
+<ul>
+<li>In 2020, 258,401 individuals entered penal institutions, and 361,870 individuals left.</li>
+<li>95.9% of those entering and 96.4% of those leaving were males.</li>
+</ul>
+</section>
+<section id="crime-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="crime-distribution">6. Crime Distribution</h3>
+<ul>
+<li>The most common crimes leading to detention were assault (15.7%), theft (15.2%), traffic offenses (5.9%), and violations of the Execution and Bankruptcy Law (5.3%).</li>
+</ul>
+</section>
+<section id="educational-background" class="level3">
+<h3 class="anchored" data-anchor-id="educational-background">7. Educational Background</h3>
+<ul>
+<li>Among those entering for assault, 29.9% had completed middle school, 26.0% high school, and 21.4% primary education.</li>
+<li>For theft, 45.4% had completed middle school, 17.6% primary education, and 15.6% high school.</li>
+<li>Criminals with a higher education background were more likely to commit assault (9.2%), while those with no formal education were more likely to commit theft (30.2%).</li>
+</ul>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->

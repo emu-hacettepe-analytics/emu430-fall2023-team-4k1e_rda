@@ -29,34 +29,24 @@ Exploratory Data Analysis (EDA) is provided below by Turkish Penal Institution S
 ### 3. Population Composition:
 
 -   Convicted individuals made up 84.3% of the population, while individuals in pretrial detention constituted 15.7%.
-
-### 4. Population Density:
-
 -   The number of individuals in penal institutions per 100,000 people was 319 on December 31, 2020.
 
-### 5. Age Analysis:
+### 4. Age Analysis:
 
 -   The number of individuals aged 12 and above in penal institutions was 390 per 100,000 people in 2020.
-
-### 6. Juvenile Offenders:
-
 -   The number of individuals entering penal institutions as children (aged 12-17) decreased by 23.6% to 1,283, and those committing crimes as children decreased by 21.4% to 10,234 compared to the previous year.
 
-### 7. Entrance and Exit Statistics:
+### 5. Entrance and Exit Statistics
 
 -   In 2020, 258,401 individuals entered penal institutions, and 361,870 individuals left.
 -   95.9% of those entering and 96.4% of those leaving were males.
 
-### 8. Crime Distribution:
+### 6. Crime Distribution
 
 -   The most common crimes leading to detention were assault (15.7%), theft (15.2%), traffic offenses (5.9%), and violations of the Execution and Bankruptcy Law (5.3%).
 
-### 9. Educational Background:
+### 7. Educational Background
 
 -   Among those entering for assault, 29.9% had completed middle school, 26.0% high school, and 21.4% primary education.
 -   For theft, 45.4% had completed middle school, 17.6% primary education, and 15.6% high school.
-
-### 10. Crime and Education:
-
 -   Criminals with a higher education background were more likely to commit assault (9.2%), while those with no formal education were more likely to commit theft (30.2%).
-
