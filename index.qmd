@@ -28,4 +28,6 @@ The project covers the examination of various types of crimes between 2011 and 2
 
 # Data Set
 
-  Our [Data Set **(click to access)**](data/suc%20turu%20ve%20egitim%20durumuna%20gore%20ceza%20infaz%20kurumuna%20giren%20hukumluler.xls) consists of crimes committed by criminals who have been judged by the [Turkish Penalty and Execution Institution](https://data.tuik.gov.tr/Bulten/Index?p=Ceza-Infaz-Kurumu-Istatistikleri-2020-37202). The number of crimes committed are categorized by years (2011-2020), types of crimes, gender of the criminal and their education status.
+Our [Data Set **(click to access)**](data/suc%20turu%20ve%20egitim%20durumuna%20gore%20ceza%20infaz%20kurumuna%20giren%20hukumluler.xls) consists of crimes committed by criminals who have been judged by the [Turkish Penalty and Execution Institution](https://data.tuik.gov.tr/Bulten/Index?p=Ceza-Infaz-Kurumu-Istatistikleri-2020-37202). The number of crimes committed are categorized by years (2011-2020), types of crimes, gender of the criminal and their education status.
+
+# Key Takeaways
