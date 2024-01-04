@@ -2,6 +2,7 @@
 title: "Data"
 code-fold: true
 ---
+
 ## Crime Dynamics: Analyzing Crime Rates, Gender, and Education Trends from 2011 to 2020
 
 Our project will focus on the relationships between the gender and education levels of those who committed crimes in Turkey between 2011 and 2020, and in this context, it aims to help us better understand the sensitivity of crime to population-related characteristics.
@@ -12,8 +13,7 @@ The main reason we chose this data is to understand the social impact by analyzi
 
 First of all, we will examine in detail the changes in the rates of certain types of crimes. We aim to obtain a more detailed output about the security situation of the society by analyzing trends in crime categories such as theft, murder and rape.
 
-Gender and education level are important factors in understanding the crime profile. Our study will focus on the relationships between gender and education levels of offenders and, in this context, will help us better understand the sensitivity of crime to demographic characteristics.
-The types of analysis aimed in the project consist of determining which crime types are more common in which year using Descriptive Statistics, observing which crime types a certain gender is more prone to and how their trends change over the year with Gender-Based Analysis, observing how the number of crime types changes over time with Time-Series Analysis, analyzing how a certain crime type depends on factors such as gender and year with Regression Analysis.
+Gender and education level are important factors in understanding the crime profile. Our study will focus on the relationships between gender and education levels of offenders and, in this context, will help us better understand the sensitivity of crime to demographic characteristics. The types of analysis aimed in the project consist of determining which crime types are more common in which year using Descriptive Statistics, observing which crime types a certain gender is more prone to and how their trends change over the year with Gender-Based Analysis, observing how the number of crime types changes over time with Time-Series Analysis, analyzing how a certain crime type depends on factors such as gender and year with Regression Analysis.
 
 The resulting analyzes can contribute to efforts to create a safer society by providing information on identifying the factors underlying crime.
 
@@ -29,6 +29,8 @@ library(dplyr)
 library(ggplot2)
 library(ggrepel)
 library(gghighlight)
+library(tibble)
+library(stringr)
 
 dat <- read_xls("data/suc turu ve egitim durumuna gore ceza infaz kurumuna giren hukumluler.xls")
 index2020 <- read_xlsx("data/indexes.xlsx", sheet = "2020-2018", col_names = FALSE)
@@ -124,11 +126,12 @@ years <- na.omit(years)
 type_frame <- data.frame(temp2020,temp2020,temp2020,temp2017,temp2017,temp2017,temp2017,temp2017,temp2012,temp2012)
 types <- data.frame(type_of_crimes = unlist(type_frame, use.names = FALSE)) |> na.omit()
 
-numbers <- data.frame(years = years, type_of_crimes = types, na.omit(data.frame(gen_total = dat$...2[20:nrow(dat)], male = dat$...3[20:nrow(dat)], female = dat$...4[20:nrow(dat)])))
+numbers <- data.frame(years = years, type_of_crime = types, na.omit(data.frame(gen_total = dat$...2[20:nrow(dat)], male = dat$...3[20:nrow(dat)], female = dat$...4[20:nrow(dat)])))
 numbers$gen_total <- as.numeric(numbers$gen_total)
 numbers$male <- as.numeric(numbers$male)
 numbers$female <- as.numeric(numbers$female)
 numbers[is.na(numbers)] <- 0
+numbers <- pivot_longer(numbers, cols = c(male,female), names_to = "gender", values_to = "number")
 
 plot <- ggplot(numbers, aes(years, gen_total, color = type_of_crimes)) + 
   geom_line() + 
