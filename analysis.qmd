@@ -53,45 +53,45 @@ Exploratory Data Analysis (EDA) is provided below by Turkish Penal Institution S
 
 # Analysis of Crimes
 
-### **Use and Purchase of Drugs**
+### Use and Purchase of Drugs
 
 Between 2011 and 2020, there appears to be a low rate of increase.
 
 Factors such as economic difficulties or unemployment may be the main reason for this increase. Increased social pressures, increased stress levels and life difficulties, lighter sentences may increase drug use.
 
-### **Traffic Crimes**
+### Traffic Crimes
 
 The increase in general traffic density with urbanisation and population growth, inadequate urban planning and infrastructure deficiencies are among the reasons for the increase in traffic crimes.
 
-### **Threat**
+### Threat
 
 Changes in social communication, social media and other communication technologies, police intervention, security policies and criminal sanctions can affect threat offences.
 
-### **Theft**
+### Theft
 
 While theft crime increased between 2011-2014, it remained almost at the same level between 2014-2020. The increase in theft crimes between 2011-2014 may have led to an increase in security measures during this period. Increased police and improvements in security systems may have reduced theft crimes.
 
-### **Swindling**
+### Swindling
 
 Between 2011 and 2020, an increase rate is observed.
 
 The reason for this increase may be the widespread use of the internet and cyber swindling crimes.
 
-### **Smuggling**
+### Smuggling
 
 According to the years, smuggling offences appear to be decreasing and increasing in some years.Economic gains from smuggling activities may affect crime rates.
 
-### **Sexual Crimes**
+### Sexual Crimes
 
 While theft crime increased between 2011-2014, it remained almost at the same level between 2014-2020.
 
 The increase in awareness of sexual crimes in the society and the increase in the rate of reporting crimes by victims may increase as crimes are recorded more.
 
-### **Robbery**
+### Robbery
 
 While robbery crimes increased between 2011-2014, they remained almost at the same level between 2014-2020.The economic situation is one of the most important reasons affecting robbery crimes. Factors such as economic insufficiency, unemployment or income inequality can lead to an increase in robbery offences.
 
-### **Production and Commerce of Drugs**
+### Production and Commerce of Drugs
 
 Drug production and trafficking increased briefly from 2011 onwards and then remained almost at the same level.
 
