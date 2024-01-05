@@ -76,7 +76,6 @@ While the original data holds the education information, [our version](data/crim
 
 ```{r}
 #| output: false
-```{r}
 #| code-summary: "Initialization of environment"
 library(tidyr)
 library(readxl)
